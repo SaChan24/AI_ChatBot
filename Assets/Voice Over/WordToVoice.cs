@@ -13,6 +13,9 @@ public class WordToVoice : MonoBehaviour
     public AudioClip helloClip;
     public AudioClip campfireClip;
     public AudioClip catClip;
+    public AudioClip ghostClip;
+    public AudioClip nameClip;
+
 
     private Dictionary<string, AudioClip> voiceDictionary;
 
@@ -23,7 +26,12 @@ public class WordToVoice : MonoBehaviour
         {
             { "hello", helloClip },
             { "campfire", campfireClip },
-            { "cat", catClip }
+            { "cat", catClip },
+            { "ghost", ghostClip },
+            { "yourname", nameClip }
+
+
+
         };
 
         // ฟัง event ตอนพิมเสร็จ (กด Enter)

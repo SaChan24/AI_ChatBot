@@ -1390,7 +1390,9 @@ MonoBehaviour:
   lipSync: {fileID: 2141500982}
   helloClip: {fileID: 8300000, guid: 0ccbbb91e6a6e704387415ff8f76d239, type: 3}
   campfireClip: {fileID: 8300000, guid: 3d660b983afd2e04a8321c3b9e9171dd, type: 3}
-  catClip: {fileID: 0}
+  catClip: {fileID: 8300000, guid: 06278635a6d31824bb0287c57abca9d8, type: 3}
+  ghostClip: {fileID: 8300000, guid: 0682c21ab421d7e4b9f2331738cb69a3, type: 3}
+  nameClip: {fileID: 8300000, guid: 05c5a74046800de4d8ba379789ceacd0, type: 3}
 --- !u!4 &2100887604
 Transform:
   m_ObjectHideFlags: 0
